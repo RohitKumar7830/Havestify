@@ -29,10 +29,6 @@ This is a POC(Proof of concept) kind-of project. The data used here comes up wit
 - [Disease Detection](https://www.kaggle.com/atharvaingle/plant-disease-classification-resnet-99-2)
 
 
-## DEPLOYMENT 🚀
-
-#### Deployment is done using [deploy](https://github.com/Gladiator07/Harvestify/tree/deploy) branch
-#### This website is deployed at [Heroku](https://www.heroku.com/)
 
 ## How to use 💻
 - Crop Recommendation system ==> enter the corresponding nutrient values of your soil, state and city. Note that, the N-P-K (Nitrogen-Phosphorous-Pottasium) values to be entered should be the ratio between them. Refer [this website](https://www.gardeningknowhow.com/garden-how-to/soil-fertilizers/fertilizer-numbers-npk.htm) for more information.
@@ -83,37 +79,6 @@ Note that, for now it only supports following crops
   python app.py
   ```
 - Open the localhost url provided after running `app.py` and now you can use the project locally in your web browser.
-## DEMO
-
-- ### Crop recommendation system
-
-![demo](https://media.giphy.com/media/90JbjdAa5nDq3TJh5u/giphy.gif)
-
-- ### Fertilizer suggestion system
-
-![demo](https://media.giphy.com/media/FLftUXMFo8N2bBjAXq/giphy.gif)
 
 
-- ### Disease Detection system
-![demo](https://media.giphy.com/media/NnMwEp2tGZdfnJbyjr/giphy.gif)
-
-
-
-## Contribute 👨‍💻
-Please read [CONTRIBUTING.md](https://github.com/Gladiator07/Harvestify/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Usage ⚙️
-You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.
-
-## Further Improvements 📈
-This was my first big project so there are lot of things to improve upon
-
-- CSS code is totally messed up :pensive: (some code in file and some inline)
-- Frontend can be made more nicer (PS: I suck at frontend development) :cry:	
-- More data can be collected manually via web scrapping to make the system more accurate :monocle_face:	
-- Additional plant images can be collected to make the disease detection part more robust and generalized :face_with_head_bandage:
-- Modularized code can be written instead of writing in Jupyter Notebooks (will follow this in upcoming projects)
-
-## License 📝
-This project is licensed under [GNU (GENERAL PUBLIC LICENSE)](https://github.com/Gladiator07/Harvestify/blob/master/LICENSE).
 
